@@ -36,19 +36,19 @@
         <div
           class="flex justify-center items-center bg-[#41ff6b1a] rounded-3xl"
         >
-          <span class="px-1 font-bold mb-1">0</span>
+          <span id="counterlove" class="px-1 font-bold mb-1">0</span>
           <img class="w-[20%]" src="./assets/heart.png" alt="" />
         </div>
         <div
           class="flex justify-center items-center bg-[#41ff6b1a] rounded-3xl"
         >
-          <span class="px-1 font-bold mb-[2px]">100</span>
+          <span id="coin-count" class="px-1 font-bold mb-[2px]">100</span>
           <img class="w-[20%]" src="./assets/coin.png" alt="" />
         </div>
         <div
           class="flex justify-center items-center bg-[#00A63E] rounded-3xl md:px-6 sm:px-4 lg:px-8 font-semibold"
         >
-          <span class="text-white px-1">0</span>
+          <span id="copy-count" class="text-white px-1">0</span>
           <p class="text-white">Copy</p>
         </div>
       </div>
@@ -70,7 +70,7 @@
     <!-- card section  -->
     <section class="bg-[#41ff6b1a]">
       <div class="w-[92%] mx-auto grid grid-cols-12 gap-5 pt-10">
-        <div class="allcards col-span-9 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[37px]">
+        <div class="allcards col-span-9 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-[37px]">
           <!-- single card -->
           <div class="single-card bg-white px-[20px] py-[30px] rounded-lg mb-10 -mt-[37px] shadow-md">
             <!-- cardInner -->
@@ -85,18 +85,18 @@
             </div>
             <h1 class="text-[16px] font-bold">National Emergency Number</h1>
             <p class="text-[#5c5c5c] mb-2">National Emergency</p>
-            <h1 class="text-[18px] font-bold">999</h1>
+            <h1 class="service-number text-[18px] font-bold">999</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >All</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1 ">
+              <button class="bg-[#00a63e] call-btn lg:px-6 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1 ">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -115,18 +115,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Police Helpline Number</h1>
             <p class="text-[#5c5c5c] mb-2">Police</p>
-            <h1 class="text-[18px] font-bold">999</h1>
+            <h1 class="service-number text-[18px] font-bold">999</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >Police</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -145,18 +145,19 @@
             </div>
             <h1 class="text-[17px] font-bold">Fire Service Number</h1>
             <p class="text-[#5c5c5c] mb-2">Fire Service</p>
-            <h1 class="text-[18px] font-bold">999</h1>
+            <h1 class="service-number text-[18px] font-bold">999</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >Fire</span
             >
+          
             <!-- copy and call button3 -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -175,18 +176,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Ambulance Service</h1>
             <p class="text-[#5c5c5c] mb-2">Ambulance</p>
-            <h1 class="text-[18px] font-bold">1994-999999</h1>
+            <h1 class="service-number text-[18px] font-bold">1994-999999</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >Health</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -205,18 +206,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Women & Child Helpline</h1>
             <p class="text-[#5c5c5c] mb-2">Women & Child Helpline</p>
-            <h1 class="text-[18px] font-bold">109</h1>
+            <h1 class="service-number text-[18px] font-bold">109</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >Help</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class=" copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -235,18 +236,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Anti-Corruption Helpline</h1>
             <p class="text-[#5c5c5c] mb-2">Anti-Corruption</p>
-            <h1 class="text-[18px] font-bold">106</h1>
+            <h1 class="service-number text-[18px] font-bold">106</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >Govt.</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -265,18 +266,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Electricity Helpline</h1>
             <p class="text-[#5c5c5c] mb-2">Electricity Outage</p>
-            <h1 class="text-[18px] font-bold">16216</h1>
+            <h1 class="service-number text-[18px] font-bold">16216</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >Electricity</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -295,18 +296,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Brac Helpline</h1>
             <p class="text-[#5c5c5c] mb-2">Brac</p>
-            <h1 class="text-[18px] font-bold">16445</h1>
+            <h1 class="service-number text-[18px] font-bold">16445</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >NGO</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -325,18 +326,18 @@
             </div>
             <h1 class="text-[17px] font-bold">Bangladesh Railway Helpline </h1>
             <p class="text-[#5c5c5c] mb-2">Bangladesh Railway</p>
-            <h1 class="text-[18px] font-bold">163</h1>
+            <h1 class="service-number text-[18px] font-bold">163</h1>
             <span class="bg-[#f2f2f2] p-2 rounded-2xl px-3 text-[12px]"
               >travel</span
             >
             <!-- copy and call button -->
             <div class="mt-[25px]">
               <button
-                class="border-[0.5px] lg:px-5 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-[#00a63e] hover:text-white"
+                class="copy-btn border-[0.5px] lg:px-7 border-gray-300 rounded-lg px-6 text-[14px] font-normal py-[2px] hover:bg-gray-300 hover:text-white"
               ><i class="fa-solid fa-copy text-gray-400"></i>
                 Copy
               </button>
-              <button class="bg-[#00a63e] lg:px-5 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
+              <button class="bg-[#00a63e] call-btn lg:px-7 rounded-lg text-white px-9  text-[14px] py-[2px] hover:bg-white hover:text-black hover:border-1">
                 <i class="fa-solid fa-phone-volume text-[12px]"></i>
                 Call
               </button>
@@ -348,8 +349,10 @@
         <div class="sidebar bg-white rounded-lg col-span-3 mb-[40px] shadow-md">
           <div class="side-heading lg:flex justify-between items-center p-3 md:p-5">
             <h1 class="font-semibold sm:text-[12px] md:text-[14px] lg:text-[14px] sm:pb-2 lg:pb-0"><i class="fa-solid fa-clock-rotate-left text-gray-500 sm:text-[12px] md:text-[15px] sm:pr-0 md:pr-[22px]"></i>Call History</h1>
-            <button class="bg-[#00a63e] lg:px-5 lg:py-1 md:px-4 py-1 sm:px-2  rounded-3xl text-white text-[14px] ">Clear</button>
+            <button id="clear-history" class="bg-[#00a63e] lg:px-5 lg:py-1 md:px-4 py-1 sm:px-2  rounded-3xl text-white text-[14px] hover:bg-gray-500 ">Clear</button>
           </div>
+          <ul id="history-list" class="p-5 text-sm text-gray-700 space-y-2">
+          </ul>
         </div>
       </div>
     </section>
@@ -357,3 +360,4 @@
     <script src="./script.js"></script>
   </body>
 </html>
+
