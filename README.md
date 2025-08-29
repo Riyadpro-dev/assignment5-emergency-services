@@ -19,3 +19,6 @@ Answer: Event Delegation ,Instead of adding event listeners to many child elemen
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
  Answer: PreventDefault() Stops the default action of an element like form with a submit button thats stop reloading the website.
 stopPropagation() Stops the event from bubbling up to parent elements.
+
+
+**For responsive check Use these screen  (640px, 768px, 1024px, 1280px)
